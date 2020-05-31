@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    background-color: black;
+    background-image: url(images/hero3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 700px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+    margin: .7rem auto 0 3.5rem;
+}
+
+.nav-area {
+    list-style: none;
+    margin: 2.7rem 4.5rem 0 0;
+}
+
+.nav-area li {
+    background-color: #ffaa6b;
+    border-radius: 45%;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+}
+
+.nav-area li a {
+    color: #7d4054;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-area li a:hover {
+    color: #fff;
+}
+
+
+/*Section 1*/
+.section1 {
+    background-color: #af5221;
+    box-shadow: inset 0px 25px 20px -20px rgba(0,0,0,0.8); 
+    text-align: center;
+}
+
+.section1 img {
+    height: 300px;
+    width: 300px;
+    margin: 2%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+/*Section 2*/
+.section2 {
+    background-color: lightgray;
+}
+
+
+/*Footer*/
+footer {
+    background-color: olive;
+}
